@@ -1,0 +1,58 @@
+/* Classes:
+
+person_info
+nameSound18
+username
+sound
+nav
+day-box.prep
+day-box.CURRENT
+day-box.COMPLETED
+day
+notes
+reading-box
+reading
+prep-box
+assignment_link
+assignmentWidget.ASSIGNED
+assignment-label
+assignment-title
+grading-box
+lab-box
+
+*/
+
+.person_info 
+{
+ text-align: right; 
+ background: blue;
+}
+
+.day-box.PREP {
+    border-style: double;
+    margin-bottom: 10px;
+}
+
+.day {
+    font-weight: bold;
+    text-align: center;
+    border: solid;
+    border-width: 1px;
+    margin: 1%;
+}
+
+.day-box.CURRENT {
+    border: double;
+}
+.day-box.COMPLETED {
+    border: double;
+    margin-top: 1%;
+}
+
+.reading, .assignment-label, .assignment-title, .grade {
+    margin-left: 1%;
+}
+
+.assignment-title {
+    font-size: 18px;
+}
